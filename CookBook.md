@@ -15,72 +15,212 @@ These are the goals outlined from the class:
 
 Column headers:
 
-subject
-activity
-tbodyacc-mean-x
-
-tbodyacc-mean-y
-tbodyacc-mean-z
-tbodyacc-std-x
-tbodyacc-std-y
-tbodyacc-std-z
-tgravityacc-mean-x
-tgravityacc-mean-y
-tgravityacc-mean-z
-tgravityacc-std-x
-tgravityacc-std-y
-tgravityacc-std-z
-tbodyaccjerk-mean-x
-tbodyaccjerk-mean-y
-tbodyaccjerk-mean-z
-tbodyaccjerk-std-x
-tbodyaccjerk-std-y
-tbodyaccjerk-std-z
-tbodygyro-mean-x
-tbodygyro-mean-y
-tbodygyro-mean-z
-tbodygyro-std-x
-tbodygyro-std-y
-tbodygyro-std-z
-tbodygyrojerk-mean-x
-tbodygyrojerk-mean-y
-tbodygyrojerk-mean-z
-tbodygyrojerk-std-x
-tbodygyrojerk-std-y
-tbodygyrojerk-std-z
-tbodyaccmag-mean
-tbodyaccmag-std
-tgravityaccmag-mean
-tgravityaccmag-std
-tbodyaccjerkmag-mean
-tbodyaccjerkmag-std
-tbodygyromag-mean
-tbodygyromag-std
-tbodygyrojerkmag-mean
-tbodygyrojerkmag-std
-fbodyacc-mean-x
-fbodyacc-mean-y
-fbodyacc-mean-z
-fbodyacc-std-x
-fbodyacc-std-y
-fbodyacc-std-z
-fbodyaccjerk-mean-x
-fbodyaccjerk-mean-y
-fbodyaccjerk-mean-z
-fbodyaccjerk-std-x
-fbodyaccjerk-std-y
-fbodyaccjerk-std-z
-fbodygyro-mean-x
-fbodygyro-mean-y
-fbodygyro-mean-z
-fbodygyro-std-x
-fbodygyro-std-y
-fbodygyro-std-z
-fbodyaccmag-mean
-fbodyaccmag-std
-fbodybodyaccjerkmag-mean
-fbodybodyaccjerkmag-std
-fbodybodygyromag-mean
-fbodybodygyromag-std
-fbodybodygyrojerkmag-mean
-fbodybodygyrojerkmag-std
+<TABLE FRAME=VOID CELLSPACING=0 COLS=1 RULES=NONE BORDER=0>
+	<COLGROUP><COL WIDTH=213></COLGROUP>
+	<TBODY>
+		<TR>
+			<TD WIDTH=213 HEIGHT=18 ALIGN=LEFT>subject</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=LEFT>activity</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyacc-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityacc-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerk-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyro-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerk-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityaccmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tgravityaccmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerkmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodyaccjerkmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyromag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyromag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerkmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>tbodygyrojerkmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyacc-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccjerk-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-mean-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-mean-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-mean-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-std-x</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-std-y</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodygyro-std-z</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodyaccmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodyaccjerkmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodyaccjerkmag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodygyromag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodygyromag-std</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodygyrojerkmag-mean</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=19 ALIGN=LEFT>fbodybodygyrojerkmag-std</TD>
+		</TR>
+	</TBODY>
+</TABLE>
