@@ -1,10 +1,27 @@
+These are the goals outlined from the class:
+	1.	Merges the training and the test sets to create one data set.
+	2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+	3.	Uses descriptive activity names to name the activities in the data set
+	4.	Appropriately labels the data set with descriptive variable names. 
+	5.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+This numbers are in the comments of the code as well so you can see and tell what it is doing in the code.
+
+Below is the readme file from the data in the zip file that goes into detail about the data that we are using in this project.
+
+
+
+
+
+
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit� degli Studi di Genova.
+DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
