@@ -16,9 +16,9 @@ These are the goals outlined from the class:
 Column headers:
 
 subject
-
 activity
 tbodyacc-mean-x
+
 tbodyacc-mean-y
 tbodyacc-mean-z
 tbodyacc-std-x
